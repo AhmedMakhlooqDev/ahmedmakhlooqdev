@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>My Portfolio</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>My Portfolio</h1>
+    <p>Welcome to my website portfolio.</p>
+  </header>
+
+
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.375/build/spline-viewer.js"></script>
+  <spline-viewer url="https://prod.spline.design/DTKFEvR9HByGEyMh/scene.splinecode"></spline-viewer>
+
+  <div class="container">
+    <!-- <iframe src='https://my.spline.design/untitled-01a0dcdec9b6602d7349de1208f36feb/' frameborder='0' width='100%' height='100%'></iframe> -->
+    <p>Check out my latest projects below:</p>
+    <a href="projects.html" class="project-button">View Projects</a>
+  </div>
+
+  <section id="threejs-section"></section>
+
+  <footer>
+    &copy; 2023 My Portfolio. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Three.js code here
+    // Initialize Three.js scene in the 'threejs-section' element
+    const container = document.getElementById('threejs-section');
+
+    // Example code to create a Three.js scene
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(75, container.offsetWidth / container.offsetHeight, 0.1, 1000);
+    const renderer = new THREE.WebGLRenderer();
+    renderer.setSize(container.offsetWidth, container.offsetHeight);
+    container.appendChild(renderer.domElement);
+    // Add your Three.js code here to create the scene, objects, lighting, etc.
+
+    function animate() {
+      requestAnimationFrame(animate);
+      // Add your animation code here
+      renderer.render(scene, camera);
+    }
+
+    animate();
+  </script>
+</body>
+</html>
