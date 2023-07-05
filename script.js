@@ -1,5 +1,6 @@
 // script.js
 
+
 const toggleButton = document.querySelector('.toggle-button');
 const body = document.querySelector('body');
 
@@ -7,6 +8,8 @@ toggleButton.addEventListener('click', () => {
   body.classList.toggle('dark-mode');
 });
 
+
+// Listener to move within pages 
 document.addEventListener('DOMContentLoaded', function() {
   const contactLink = document.querySelector('a[href="#contact"]');
 
