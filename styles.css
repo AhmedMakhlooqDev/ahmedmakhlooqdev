@@ -5,13 +5,13 @@ body {
   padding: 0;
   font-family: 'IBM Plex Mono', monospace;
   background-color: #2A2A2A;
-  color: #84DCCF;
+  color: #E3C0D3;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url('images/4884273.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url('images/image.png');
+  background-repeat: repeat-y;
+  background-size: contain;
 }
 
 .dark-mode {
@@ -37,13 +37,13 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #b0b0b0;
+  color: #84DCCF;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #00ff00;
+  color: #84DCCF;
 }
 
 header {
@@ -84,7 +84,7 @@ header {
 
 .timeline-date {
   width: 200px;
-  background-color: #00ff00;
+  background-color: #84DCCF;
   color: #000;
   padding: 10px;
   text-align: center;
@@ -102,7 +102,7 @@ header {
   margin-top: 0;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 24px;
-  color: #00ff00;
+  color: #84DCCF;
 }
 
 .timeline-content p {
@@ -113,7 +113,7 @@ header {
 .timeline-content .project-button {
   display: inline-block;
   padding: 15px 30px;
-  background-color: #00ff00;
+  background-color: #FFCF00;
   color: #000;
   text-decoration: none;
   font-family: 'IBM Plex Mono', monospace;
@@ -128,7 +128,7 @@ header {
 
 
 .timeline-content .project-button:hover {
-  background-color: #00cc00;
+  background-color: #FFCF00;
 }
 
 .project-container:not(:last-child) {
@@ -163,7 +163,7 @@ footer {
 .timeline-content .project-button {
   display: inline-block;
   padding: 15px 30px;
-  background-color: #00ff00;
+  background-color: #84DCCF;
   color: #000;
   text-decoration: none;
   font-family: 'IBM Plex Mono', monospace;
@@ -199,7 +199,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #00ff00;
+  color: #84DCCF;
 }
 
 nav .name {
@@ -226,7 +226,7 @@ nav .name {
 #contact h2 {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 24px;
-  color: #00ff00;
+  color: #E3C0D3;
 }
 
 #contact p {
