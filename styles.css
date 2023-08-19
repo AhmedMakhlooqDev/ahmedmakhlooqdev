@@ -9,6 +9,12 @@ body{
   color: aliceblue;
   background-color: #0F172A;
 }
+p{
+  color: #797979;
+}
+.introduction{
+  margin-top: 40px;
+}
 
 .radial-gradient {
   position:fixed;
@@ -90,7 +96,11 @@ body{
 
 /* socials and contact information */
 .contact{
-margin-top: 500px;
+  margin-top: 500px;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
 }
+
 
 
