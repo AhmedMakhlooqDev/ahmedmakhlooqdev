@@ -47,6 +47,12 @@ body{
   color: white; /* Text color */
   cursor: pointer;
   font-size: 16px;
+  margin-top: 10px;
+}
+
+.tags{
+  display: inline-block;
+  margin-bottom: 30px;
 }
 
 .project-button{
@@ -57,6 +63,7 @@ body{
   color: white; /* Text color */
   cursor: pointer;
   font-size: 16px;
+  margin-top: 100px;
 }
 
 
