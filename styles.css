@@ -200,28 +200,7 @@ p{
 }
 
 /*i dont know what i did but it worked (ipad landscape)*/
-@media (max-width: 1050) {
-  
-  body{
-    overflow: hidden;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-top: 50px;
-  }
 
-  .itemCon {
-    max-height: none;
-    height: auto;
-    
-    }
-
-  .contact{
-    margin-top: 300px;
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-  }
-}
   
 
 
