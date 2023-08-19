@@ -10,19 +10,19 @@ const body = document.querySelector('body');
 
 
 // Listener to move within pages 
-document.addEventListener('DOMContentLoaded', function() {
-  const contactLink = document.querySelector('a[href="#contact"]');
+// document.addEventListener('DOMContentLoaded', function() {
+//   const contactLink = document.querySelector('a[href="#contact"]');
 
-  if (contactLink) {
-    contactLink.addEventListener('click', function(e) {
-      e.preventDefault();
-      const contactSection = document.querySelector('#contact');
-      if (contactSection) {
-        contactSection.scrollIntoView({ behavior: 'smooth' });
-      }
-    });
-  }
-});
+//   if (contactLink) {
+//     contactLink.addEventListener('click', function(e) {
+//       e.preventDefault();
+//       const contactSection = document.querySelector('#contact');
+//       if (contactSection) {
+//         contactSection.scrollIntoView({ behavior: 'smooth' });
+//       }
+//     });
+//   }
+// });
 
 
 document.addEventListener('mousemove', function(event) {
