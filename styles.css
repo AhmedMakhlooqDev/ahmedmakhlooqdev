@@ -184,30 +184,54 @@ p{
 /*tablet portrait*/
 @media (min-width: 900px) {
   
-  body{
-    overflow: hidden;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 50px;
-  }
+   body {
+        overflow: auto;
+        margin: 80px 10px;
+      }
+      .name{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
 
-  .contact{
-    margin-top: 300px;
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-  }
+    .itemCon {
+      max-height: none;
+      height: auto;
+      
+      }
+    .contact {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .summary{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
 }
 
 /*i dont know what i did but it worked (ipad landscape)*/
-@media (max-width: 1200px) {
+@media (max-width: 1050) {
   
   body{
     overflow: hidden;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
     margin-top: 50px;
   }
+
+  .itemCon {
+    
+    
+    }
 
   .contact{
     margin-top: 300px;
