@@ -33,3 +33,30 @@ body{
 .name{
   font-size: 3rem;
 }
+
+.listItem{
+  margin-bottom: 70px;
+}
+
+.tag{
+  margin-top: 3rem;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 10px; /* Rounded corners */
+  background-color: #3498db; /* Button color */
+  color: white; /* Text color */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.project-button{
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 10px; /* Rounded corners */
+  background-color: #34dbbf; /* Button color */
+  color: white; /* Text color */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
