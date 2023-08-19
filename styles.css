@@ -66,17 +66,11 @@ p{
 
 /* item of one project or experience */
 .listItem{
-  opacity: 1; /* Initial opacity */
-  transition: background-color 0.3s ease, border-radius 0.3s ease, opacity 0.3s ease;
+  
    margin-bottom: 70px; 
 }
 
-.listItem:hover{
-  padding: 100px;
-  background-color: #18274B; /* Faded background color */
-  border-radius: 10px; /* Larger border radius */
-  opacity: 0.7; /* Reduced opacity on hover */
-}
+
 
 /* use technologies tag */
 .tag{
@@ -116,6 +110,45 @@ p{
   flex-direction: row;
   gap: 2rem;
 }
+
+
+
+@media (max-width: 768px) {
+  body {
+    margin: 80px 10px;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .itemCon {
+    max-height: none;
+    height: auto;
+      overflow-y: auto;
+      height: 800px;
+    
+    }
+    .contact {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .summary{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+  }
+
+  
+
+
 
 
 
