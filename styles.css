@@ -181,6 +181,7 @@ p{
 
 }
 
+/*tablet portrait*/
 @media (min-width: 900px) {
   
   body{
@@ -198,6 +199,23 @@ p{
   }
 }
 
+/*i dont know what i did but it worked (ipad landscape)*/
+@media (max-width: 1200px) {
+  
+  body{
+    overflow: hidden;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+  }
+
+  .contact{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
   
 
 
