@@ -184,38 +184,19 @@ p{
 /*tablet portrait*/
 @media (min-width: 900px) {
   
-   body {
-        overflow: auto;
-        margin: 80px 10px;
-      }
-      .name{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .grid-container {
-        grid-template-columns: 1fr;
-      }
+  body{
+    overflow: hidden;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+  }
 
-    .itemCon {
-      max-height: none;
-      height: auto;
-      
-      }
-    .contact {
-      margin-top: 20px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .summary{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+  .contact{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
 }
 
 /*i dont know what i did but it worked (ipad landscape)*/
@@ -229,7 +210,8 @@ p{
   }
 
   .itemCon {
-    
+    max-height: none;
+    height: auto;
     
     }
 
