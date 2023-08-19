@@ -6,38 +6,44 @@ body{
   margin-right: 300px;
   margin-top: 100px;
 }
+
+body{
+  font-family: 'Inter', sans-serif;
+  color: aliceblue;
+  background-color: #0F172A;
+}
+
+/* whole container */
 .grid-container{
   display: grid;
   grid-template-columns: 700px auto;
 
 }
 
+/* container of the experience and projects on the right hand side */
 .itemCon{
   overflow-y: auto;
   height: 800px;
 
 }
 
+/* disable scroll bar */
 .itemCon::-webkit-scrollbar{
   display: none;
 }
 
 
-
-body{
-  font-family: 'Inter', sans-serif;
-    color: aliceblue;
-  background-color: rgb(37, 54, 85);
-}
-
+/*Title name H1*/
 .name{
   font-size: 3rem;
 }
 
+/* item of one project or experience */
 .listItem{
   margin-bottom: 70px;
 }
 
+/* use technologies tag */
 .tag{
   margin-top: 3rem;
   padding: 10px 20px; /* Adjust padding as needed */
@@ -50,11 +56,12 @@ body{
   margin-top: 10px;
 }
 
+/* tags container */
 .tags{
-  display: inline-block;
   margin-bottom: 30px;
 }
 
+/* View project button */
 .project-button{
   padding: 10px 20px; /* Adjust padding as needed */
   border: none;
@@ -64,6 +71,13 @@ body{
   cursor: pointer;
   font-size: 16px;
   margin-top: 100px;
+}
+
+/* socials and contact information */
+.contact{
+display: flex;
+flex-direction: row;
+margin-top: 500px;
 }
 
 
