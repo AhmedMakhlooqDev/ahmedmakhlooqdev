@@ -181,6 +181,23 @@ p{
 
 }
 
+@media (min-width: 900px) {
+  
+  body{
+    overflow: hidden;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+  }
+
+  .contact{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+
   
 
 
