@@ -115,9 +115,14 @@ p{
 
 @media (max-width: 900px) {
       body {
+        overflow: auto;
         margin: 80px 10px;
       }
-
+      .name{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
       .grid-container {
         grid-template-columns: 1fr;
       }
@@ -125,8 +130,6 @@ p{
     .itemCon {
       max-height: none;
       height: auto;
-        overflow-y: auto;
-        height: 800px;
       
       }
     .contact {
@@ -149,6 +152,7 @@ p{
   @media (max-width: 400px) {
     body {
       margin: 80px 10px;
+
     }
 
     .grid-container {
@@ -158,8 +162,7 @@ p{
   .itemCon {
     max-height: none;
     height: auto;
-      overflow-y: auto;
-      height: 800px;
+    height: 800px;
     
     }
   .contact {
