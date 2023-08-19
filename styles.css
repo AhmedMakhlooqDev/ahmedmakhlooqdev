@@ -151,8 +151,8 @@ p{
 
   @media (max-width: 400px) {
     body {
+      overflow: auto;
       margin: 80px 10px;
-
     }
 
     .grid-container {
@@ -162,7 +162,6 @@ p{
   .itemCon {
     max-height: none;
     height: auto;
-    height: 800px;
     
     }
   .contact {
